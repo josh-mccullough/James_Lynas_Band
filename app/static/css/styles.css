@@ -1,7 +1,6 @@
 .page-header {
     background-color:#333;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    margin: 0;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -35,20 +34,16 @@
     margin-right: 20px;
 }
 
-.Information {
-    margin-bottom: 70px;
-}
+
 
 .Information h1 a, .Information h1 a:visited {
-    color: #000000;
+    color: #F21137;
     font-family: 'Lobster';
 
 }
 
 ul.topnav {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: #333;
 }
@@ -63,11 +58,6 @@ ul.topnav li a {
     text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
-
-ul.topnav li a.active {background-color: #4CAF50;}
-
-ul.topnav li.right {float: right;}
 
 @media screen and (max-width: 600px){
     ul.topnav li.right,
@@ -91,6 +81,8 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+    font-family: Calibri;
+    color: #F21137;
 }
 
 * {
@@ -109,13 +101,6 @@ div.desc {
         margin: 6px 0;
     }
 }
-
-@media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
-}
-
 .clearfix:after {
     content: "";
     display: table;
