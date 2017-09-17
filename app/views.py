@@ -4,16 +4,17 @@ from flask import render_template
 @app.route('/')
 @app.route('/home')
 def home():
+    return render_template('base.html')
+
+@app.route('/band')
+def band():
     return render_template('home.html')
 
-@app.route('/about')
+@app.route('/contact')
 def about():
     return render_template('about.html')
 
-@app.route('/Meet_band')
-def meet_band():
-    return render_template('meet_the_band.html')
 
-@app.route('/shows')
+@app.route('/tour')
 def shows():
     return render_template('gigs.html')
