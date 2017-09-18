@@ -1,0 +1,30 @@
+{%extends 'base.html'  %}
+
+{% block content %}
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1000px" id="band">
+    <h2 class="w3-wide">MEET THE BAND</h2>
+    <p class="w3-opacity"><i>The wizards</i></p>
+    <p class="w3-justify">Come take a look at the members of the James Lynas Band that you will see at every show! Each passionate member is a master of their own instrument and loves to play all types of music.
+        Whether it's the slick sound of Martin's guitar, the thick bassline from Lyndon or Alan's hair you came for, you can be rest assured that you will
+        leave very pleased after hearing this live band performance.
+    </p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Josh McCullough</p>
+        <img src="{{ url_for('static', filename='images/meet_the_band/Josh_meet.JPG') }}" class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%">
+      </div>
+      <div class="w3-third">
+        <p>Alan Hall</p>
+        <img src="{{ url_for('static', filename='images/meet_the_band/Alan_hall_meet.JPG') }}" class="w3-round w3-margin-bottom" alt="Random Name" style="width:100%">
+      </div>
+      <div class="w3-third">
+        <p>Lyndon Dobbs</p>
+        <img src="{{url_for('static', filename='images/meet_the_band/Lyndon_meet1.JPG') }}" class="w3-round" alt="Random Name" style="width:80%">
+      </div>
+        <div class="w3-third">
+        <p>Martin Price</p>
+        <img src="{{url_for('static', filename='images/meet_the_band/Martin_meet.JPG') }}" class="w3-round" alt="Random Name" style="width:80%">
+      </div>
+    </div>
+  </div>
+{% endblock %}

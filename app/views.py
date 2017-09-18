@@ -8,7 +8,7 @@ def home():
 
 @app.route('/band')
 def band():
-    return render_template('home.html')
+    return render_template('band.html')
 
 @app.route('/contact')
 def about():
