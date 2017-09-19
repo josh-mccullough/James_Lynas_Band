@@ -1,0 +1,50 @@
+{%extends 'base.html'  %}
+{% block content %}
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1000px" id="home">
+    <h2 class="w3-wide">James Lynas</h2>
+
+
+        <img src="{{ url_for('static', filename='images/meet_the_band/jamesLynas.jpg') }}" class="w3-round w3-margin-top" alt="Random Name" style="width:80%">
+
+    <p class="justify">Welcome to the website for all things to do with James Lynas. On this page you can find yourself some helpful
+        information on his country show band. Feel free to browse around and hey you never know maybe just book us for a
+        show. As a rising up country band, we perform consistently. With a wide range of achievements under our belt
+        such as appearances on the "Keepin 'er Country" BBC show and "Stetsons and Stilettos" show on RTE as well as
+        many many radio shows across the world we believe that our band is THE band to be booked. Taking bookings
+        for country shows as well as taking bookings as a party band ready for functions and weddings. Please browse
+        our social medias below</p>
+
+    <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+           <iframe width="300" height="215" src="https://www.youtube.com/embed/Ao9seQp7CRg" frameborder="0" allowfullscreen></iframe>
+          <div class="w3-container w3-white">
+            <p><b>Come see the Youtube channel</b></p>
+            <p></p>
+          </div>
+        </div>
+
+        <div class="w3-third w3-margin-bottom">
+            <a href="http://www.belfasttelegraph.co.uk/news/northern-ireland/sky-is-the-limit-for-rising-country-star-james-lynas-as-hes-snapped-up-for-top-tv-show-34844603.html" target="_blank">
+                <img src="{{ url_for('static', filename='images/meet_the_band/jamesYoutube.jpg' )}}" alt="Loughshore"  style="width:100%" class="w3-hover-opacity">
+            </a>
+          <div class="w3-container w3-white">
+            <p><b>Click above to read an article about James!</b></p>
+            <p></p>
+          </div>
+        </div>
+
+         <div class="w3-third w3-margin-bottom">
+            <a href="http://www.bbc.co.uk/programmes/p050mz1h" target="_blank">
+                <img src="{{ url_for('static', filename='images/meet_the_band/jamesYoutube.jpg' )}}" alt="Loughshore"  style="width:100%" class="w3-hover-opacity">
+            </a>
+          <div class="w3-container w3-white">
+            <p><b>Come check out our BBC clip from when we featured on "Keepin 'er Country"</b></p>
+            <p></p>
+          </div>
+        </div>
+
+
+      </div>
+
+</div>
+{% endblock %}
